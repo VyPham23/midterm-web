@@ -5,11 +5,33 @@ function Navbar(props) {
         <div>
             <nav className='nav'>
                 
-                <a href="#" className='brand'>
-                    <img src="" alt="" />
+                <a href="#" className='nav__logo'>
+                    <img src="" alt="logo" />
                 </a>
             </nav>
-            <ul className="nav__menu"></ul>
+            
+            <ul className="nav__menu">
+                <li className="nav__item">
+                    {/* eslint-disable */}
+                    <a href="#" className="nav__link">Trang chủ</a>
+                </li>
+                <li className="nav__item">
+                    <a href="#" className="nav__link">Menu</a>
+                </li>
+                <li className="nav__item">
+                    <a href="#" className="nav__link">Ăn trưa</a>
+                </li>
+                <li className="nav__item">
+                    <a href="#" className="nav__link">Đặt món</a>
+                </li>
+                <li className="nav__item">
+                    <a href="#" className="nav__link">Giới thiệu</a>
+                </li>
+                <li className="nav__item">
+                    <a href="#" className="nav__link">Liên hệ</a>
+                </li>
+                
+            </ul>
         </div>
     );
 }
