@@ -28,7 +28,7 @@ function Navbar(props) {
                     <a href="#" className="nav__link">Giới thiệu</a>
                 </li>
                 <li className="nav__item">
-                    <a href="#" className="nav__link">Liên hệ</a>
+                    <a href="#" className="nav__link">Contact</a>
                 </li>
                 
             </ul>
