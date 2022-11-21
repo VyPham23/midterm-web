@@ -15,104 +15,163 @@ const Home = () => {
             <li className="product__list">
               <div className="product__detail">
                 <img className='product__img' src={photo} alt="xiu mai" />
-                <h4>Com xiu mai</h4>
-                <span></span>
-                <h4>69000</h4>
+                <div className='product__food'>
+                  <div className='product__content'>
+                    <h4>Com xiu mai</h4>
+                    <span></span>
+                    <h4>69000</h4>
+                  </div>
+                  <div className="product__description">
+                    <h5 >Bánh mì kẹp thịt heo Việt Nam</h5>
+                  </div>
+                </div>
               </div>
-              <h5 className="product__description">Bánh mì kẹp thịt heo Việt Nam</h5>
             </li>
             <li className="product__list">
               <div className="product__detail">
                 <img className='product__img' src={photo} alt="xiu mai" />
-                <h4>Com chay</h4>
-                <span></span>
-                <h4>69000</h4>
+                <div className='product__food'>
+                  <div className='product__content'>
+                    <h4>Com xiu mai</h4>
+                    <span></span>
+                    <h4>69000</h4>
+                  </div>
+                  <div className="product__description">
+                    <h5 >Bánh mì kẹp thịt heo Việt Nam</h5>
+                  </div>
+                </div>
               </div>
-              <h5 className="product__description">test</h5>
             </li>
-
+            <li className="product__list">
+              <div className="product__detail">
+                <img className='product__img' src={photo} alt="xiu mai" />
+                <div className='product__food'>
+                  <div className='product__content'>
+                    <h4>Com xiu mai</h4>
+                    <span></span>
+                    <h4>69000</h4>
+                  </div>
+                  <div className="product__description">
+                    <h5 >Bánh mì kẹp thịt heo Việt Nam</h5>
+                  </div>
+                </div>
+              </div>
+            </li>
           </ul>
         </Row>
 
         <Row fluid className="category__name bread"><h1><span>Bánh mì</span></h1>
-            <ul>
-              <li className="product__list">
-                <div className="product__detail">
-                  <img className='product__img' src={photo} alt="xiu mai" />
-                  <h4>Banh mi heo quay</h4>
-                  <span></span>
-                  <h4>69000</h4>
+          <ul>
+            <li className="product__list">
+              <div className="product__detail">
+                <img className='product__img' src={photo} alt="xiu mai" />
+                <div className='product__food'>
+                  <div className='product__content'>
+                    <h4>Com xiu mai</h4>
+                    <span></span>
+                    <h4>69000</h4>
+                  </div>
+                  <div className="product__description">
+                    <h5 >Bánh mì kẹp thịt heo Việt Nam</h5>
+                  </div>
                 </div>
-                <h5 className="product__description">test</h5>
-              </li>
-              <li className="product__list">
-                <div className="product__detail">
-                  <img className='product__img' src={photo} alt="xiu mai" />
-                  <h4>Banh mi ga xa</h4>
-                  <span></span>
-                  <h4>69000</h4>
+              </div>
+            </li>
+            <li className="product__list">
+              <div className="product__detail">
+                <img className='product__img' src={photo} alt="xiu mai" />
+                <div className='product__food'>
+                  <div className='product__content'>
+                    <h4>Com xiu mai</h4>
+                    <span></span>
+                    <h4>69000</h4>
+                  </div>
+                  <div className="product__description">
+                    <h5 >Bánh mì kẹp thịt heo Việt Nam</h5>
+                  </div>
                 </div>
-                <h5 className="product__description">test</h5>
-              </li>
-              <li className="product__list">
-                <div className="product__detail">
-                  <img className='product__img' src={photo} alt="xiu mai" />
-                  <h4>Banh mi xiu mai</h4>
-                  <span></span>
-                  <h4>69000</h4>
+              </div>
+            </li>
+            <li className="product__list">
+              <div className="product__detail">
+                <img className='product__img' src={photo} alt="xiu mai" />
+                <div className='product__food'>
+                  <div className='product__content'>
+                    <h4>Com xiu mai</h4>
+                    <span></span>
+                    <h4>69000</h4>
+                  </div>
+                  <div className="product__description">
+                    <h5 >Bánh mì kẹp thịt heo Việt Nam</h5>
+                  </div>
                 </div>
-                <h5 className="product__description">test</h5>
-              </li>
-              <li className="product__list">
-                <div className="product__detail">
-                  <img className='product__img' src={photo} alt="xiu mai" />
-                  <h4>Banh mi xa xiu</h4>
-                  <span></span>
-                  <h4>69000</h4>
-                </div>
-                <h5 className="product__description">test</h5>
-              </li>
-            </ul>
+              </div>
+            </li>
+          </ul>
         </Row>
         <Row fluid className="category__name noodle"><h1><span>Bún phở (Món nước)</span></h1>
-            <ul>
-              <li className="product__list">
-                <div className="product__detail">
-                  <img className='product__img' src={photo} alt="xiu mai" />
-                  <h4>Com xiu mai</h4>
-                  <span></span>
-                  <h4>69000</h4>
+          <ul>
+            <li className="product__list">
+              <div className="product__detail">
+                <img className='product__img' src={photo} alt="xiu mai" />
+                <div className='product__food'>
+                  <div className='product__content'>
+                    <h4>Com xiu mai</h4>
+                    <span></span>
+                    <h4>69000</h4>
+                  </div>
+                  <div className="product__description">
+                    <h5 >Bánh mì kẹp thịt heo Việt Nam</h5>
+                  </div>
                 </div>
-                <h5 className="product__description">test</h5>
-              </li>
-              <li className="product__list">
-                <div className="product__detail">
-                  <img className='product__img' src={photo} alt="xiu mai" />
-                  <h4>Com </h4>
-                  <span></span>
-                  <h4>69000</h4>
+              </div>
+            </li>
+            <li className="product__list">
+              <div className="product__detail">
+                <img className='product__img' src={photo} alt="xiu mai" />
+                <div className='product__food'>
+                  <div className='product__content'>
+                    <h4>Com xiu mai</h4>
+                    <span></span>
+                    <h4>69000</h4>
+                  </div>
+                  <div className="product__description">
+                    <h5 >Bánh mì kẹp thịt heo Việt Nam</h5>
+                  </div>
                 </div>
-                <h5 className="product__description">test</h5>
-              </li>
-              <li className="product__list">
-                <div className="product__detail">
-                  <img className='product__img' src={photo} alt="xiu mai" />
-                  <h4>Com </h4>
-                  <span></span>
-                  <h4>69000</h4>
+              </div>
+            </li>
+            <li className="product__list">
+              <div className="product__detail">
+                <img className='product__img' src={photo} alt="xiu mai" />
+                <div className='product__food'>
+                  <div className='product__content'>
+                    <h4>Com xiu mai</h4>
+                    <span></span>
+                    <h4>69000</h4>
+                  </div>
+                  <div className="product__description">
+                    <h5 >Bánh mì kẹp thịt heo Việt Nam</h5>
+                  </div>
                 </div>
-                <h5 className="product__description">test</h5>
-              </li>
-              <li className="product__list">
-                <div className="product__detail">
-                  <img className='product__img' src={photo} alt="xiu mai" />
-                  <h4>Com </h4>
-                  <span></span>
-                  <h4>69000</h4>
+              </div>
+            </li>
+            <li className="product__list">
+              <div className="product__detail">
+                <img className='product__img' src={photo} alt="xiu mai" />
+                <div className='product__food'>
+                  <div className='product__content'>
+                    <h4>Com xiu mai</h4>
+                    <span></span>
+                    <h4>69000</h4>
+                  </div>
+                  <div className="product__description">
+                    <h5 >Bánh mì kẹp thịt heo Việt Nam</h5>
+                  </div>
                 </div>
-                <h5 className="product__description">test</h5>
-              </li>
-            </ul>
+              </div>
+            </li>
+          </ul>
         </Row>
       </Container>  
     </div>
