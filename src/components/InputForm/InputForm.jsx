@@ -34,8 +34,8 @@ const InputForm = () => {
                 </div>
 
                 <div className='form__section'>
-                    <label>Description</label><br/>
-                    <input type="text" placeholder="Description" name="description"/>
+                    <label>Ingredients:</label><br/>
+                    <input type="text" placeholder="Ingredient (Separated by comma)" name="ingredient"/>
                 </div>
 
                 <div className='form__section'>

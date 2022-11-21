@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    margin: 30px;
+}
+
+.detail__photo{
+    width: 70%;
+    margin: 0 20px;
+}
+
+.detail__text{
+    margin: 0 15px;
+}
+
+h2{
+    font-weight: bold;
+}
+
