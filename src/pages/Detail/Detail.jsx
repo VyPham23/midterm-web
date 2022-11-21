@@ -1,11 +1,11 @@
 import React from 'react';
 import './Detail.css';
-import photo from './bg.jpg';
+import images from '../../constants/images';
 
 const Detail = () => {
     return (
         <div className='container'>
-            <img className='detail__photo' src={photo} alt='banh-mi'/>
+            <img className='detail__photo' src={images.detailbg} alt='banh-mi'/>
             <div className="detail__text">
                 <h2>Bánh mì</h2>
                 <p>Bánh mì thịt chả</p>
