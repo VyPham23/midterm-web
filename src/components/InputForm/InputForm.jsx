@@ -17,6 +17,10 @@ const InputForm = () => {
         );
     }
 
+    const addInput = () => {
+        
+    }
+
     return (
         
         <div className="form__container">
@@ -30,17 +34,21 @@ const InputForm = () => {
 
                 <div className='form__section'>
                     <label>Category(*)</label><br/>
-                    <input type="text" placeholder="Category" name="category" required />
+                    <input className='form__input' type="text" placeholder="Category" name="category" required />
                 </div>
 
                 <div className='form__section'>
-                    <label>Description</label><br/>
-                    <input type="text" placeholder="Description" name="description"/>
+                    <label>Ingredients:</label><br/>
+                    <input className='form__input' type="text" placeholder="Ingredient" name="ingredient[]"/>
+                    <input className='form__input' type="text" placeholder="Ingredient" name="ingredient[]"/>
+                    <input className='form__input' type="text" placeholder="Ingredient" name="ingredient[]"/>
+                    
+                    <button onClick={addInput}>+</button>
                 </div>
 
                 <div className='form__section'>
                     <label>Price in VND(*)</label><br/>
-                    <input type="number" min="0" placeholder="Price" name="price" required />
+                    <input className='form__input' type="number" min="0" placeholder="Price" name="price" required />
                 </div>
                 <div>
                     <button type="submit">Save</button>
