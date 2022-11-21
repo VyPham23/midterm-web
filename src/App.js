@@ -7,11 +7,13 @@ import { Home } from './pages';
 
 
 function App() {
+
   return (
     <Router className="App">
       <Navbar />
-      <Home/>
+      <Home />
       {/* <Detail /> */}
+      {/* <InputForm /> */}
     </Router>
   );
 }
