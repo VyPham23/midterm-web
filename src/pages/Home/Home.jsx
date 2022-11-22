@@ -4,6 +4,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { categories } from '../../constants/category';
+import Navbar from '../../components/Navbar/Navbar'
+import { Link } from "react-router-dom";
 import './Home.css';
 
 const Home = () => {
@@ -23,6 +25,7 @@ const Home = () => {
 
   return (
     <div className='app__homepage'>
+      <Navbar/>
       <Container className="home__detail">
         <Row>
         {categories.map((category) => (
@@ -37,7 +40,10 @@ const Home = () => {
                   <li className="product__list" key={food.name}>
                     <div className="product__detail">
                       <img src={food.image}  className="product__img" alt=''/>
-                      <h4>{food.name}</h4>
+                      <Link to={`/detail/${food.id}`} className="link__product"> 
+                        <h4>{food.name}</h4>
+                      </Link>
+
                       <span></span>
                       <h4>{food.price}</h4>
                     </div>

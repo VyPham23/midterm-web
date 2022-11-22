@@ -1,5 +1,5 @@
 import {
-  BrowserRouter as Router
+  BrowserRouter as Router,Route,Routes
 } from "react-router-dom";
 import './App.css';
 import { Navbar } from './components';
@@ -10,10 +10,10 @@ function App() {
 
   return (
     <Router className="App">
-      <Navbar />
-      <Home />
-      {/* <Detail /> */}
-      {/* <InputForm /> */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/detail/:id" element={<Detail/>} />
+      </Routes>
     </Router>
   );
 }
