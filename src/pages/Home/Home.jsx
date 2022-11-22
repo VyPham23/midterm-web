@@ -2,6 +2,7 @@ import axios from 'axios';
 import React, { useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import { categories } from '../../constants/category';
 import './Home.css';
 
@@ -23,6 +24,7 @@ const Home = () => {
   return (
     <div className='app__homepage'>
       <Container className="home__detail">
+        <Row>
         {categories.map((category) => (
           <Row className="category__name" key={category.label}>
             <h1>
@@ -34,7 +36,7 @@ const Home = () => {
                 return (
                   <li className="product__list" key={food.name}>
                     <div className="product__detail">
-                    <img src={food.image}  className="product__img"/>
+                      <img src={food.image}  className="product__img" alt=''/>
                       <h4>{food.name}</h4>
                       <span></span>
                       <h4>{food.price}</h4>
@@ -42,12 +44,12 @@ const Home = () => {
                     <h5 className="product__description">{food.description}</h5>
                   </li>
                 )
-
                 return null
               })}
             </ul>
           </Row>
         ))}
+        </Row>
       </Container>  
     </div>
   )

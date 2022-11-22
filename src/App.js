@@ -11,8 +11,8 @@ function App() {
   return (
     <Router className="App">
       <Navbar />
-      {/* <Home /> */}
-      <Detail />
+      <Home />
+      {/* <Detail /> */}
       {/* <InputForm /> */}
     </Router>
   );
