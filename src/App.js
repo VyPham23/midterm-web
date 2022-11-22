@@ -4,15 +4,15 @@ import {
 import './App.css';
 import { Navbar } from './components';
 import { Home } from './pages';
-
+import { Detail } from './pages'
 
 function App() {
 
   return (
     <Router className="App">
       <Navbar />
-      <Home />
-      {/* <Detail /> */}
+      {/* <Home /> */}
+      <Detail />
       {/* <InputForm /> */}
     </Router>
   );

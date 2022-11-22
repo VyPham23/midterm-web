@@ -34,6 +34,7 @@ const Home = () => {
                 return (
                   <li className="product__list" key={food.name}>
                     <div className="product__detail">
+                    <img src={food.image}  className="product__img"/>
                       <h4>{food.name}</h4>
                       <span></span>
                       <h4>{food.price}</h4>
